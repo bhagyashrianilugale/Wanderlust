@@ -53,8 +53,10 @@ A heartfelt thank you to Shradha Khapra mam and AMAN DHATTARWAL sir at #ApnaColl
 # Author
 Bhagyashri Ugale
 
-Email: bhagyashriugale6970@gmail.com
-LinkedIn : https://www.linkedin.com/in/bhagyashri-ugale-689b83299
+# Email : 
+  bhagyashriugale6970@gmail.com
+# LinkedIn : 
+https://www.linkedin.com/in/bhagyashri-ugale-689b83299
 
 Project Link
 Live Link : https://wanderlust-aize.onrender.com/listings

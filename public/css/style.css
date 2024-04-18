@@ -25,6 +25,7 @@ body{
 }
 
 /* footer */
+
 .f-info-links a{
     text-decoration: none;
     color: #222222 ;
@@ -89,16 +90,6 @@ body{
     color: black;
 }
 
-/* card-effect */
-/* .card-img img{
-    opacity: 0.2rem !important;
-    background-color: #ebebeb !important;
-}
-
-.card-img img:hover{
-    opacity: 1rem !important;
-} */
-
 /* new page */
 .add-btn{
     background-color:#fe434d !important;
@@ -110,12 +101,6 @@ body{
     background-color:#fe434d !important;
     border: none !important;   
 }
-
-@media (max-width: 767px){
-    .edit-btn,.add-btn, .btn{
-       width: 4rem !important;
-       font-size: small !important;
-    }}  
 
 /* show page */
 .show-img{
@@ -134,13 +119,88 @@ body{
 }
 
 /* MAP */
-
 #map { 
     height: 250px;
     width: 120vh; 
     border-radius: 5px;
     
 }
+
+
+/* Search Bar*/
+
+@media (max-width:768px) {
+    .edit-btn,.add-btn, .btn{
+        width: 4rem !important;
+        font-size: small !important;
+     }
+
+     .card-img-top{
+        border-radius: 1rem !important;
+        width: 300px !important;
+        height: 10rem !important;
+        object-fit: cover !important ;
+     }
+     .show-img{
+        height: 35vh !important;
+        width: 550px !important;
+    }
+
+    #map { 
+        height: 200px;
+        width: 80vh; 
+        border-radius: 3px;
+        right: 20px;
+        
+    }
+    .f-info{
+        background-color: #ebebeb;
+        height: 7rem;
+        width: 60vh;
+    }
+    
+}
+
+@media (max-width:425px) {
+    .edit-btn,.add-btn, .btn{
+        width: 4rem !important;
+        font-size: small !important;
+     }
+
+     .card-img-top{
+        border-radius: 1rem !important;
+        width: 350px !important;
+        height: 10rem !important;
+        object-fit: cover !important ;
+     }
+
+     .show-img{
+        height: 30vh !important;
+        width: 300px !important;
+        right: 25px;
+    }
+
+    #map { 
+        height: 200px;
+        width: 40vh; 
+        border-radius: 5px;
+        right: 20px;
+    }
+
+    .f-info{
+            background-color: #ebebeb;
+            height: 7rem;
+            width: 60vh;
+         }
+   .navbar{
+            height: 5rem;
+            background-color: white;
+            width:  60vh;
+    }
+        
+    
+}
+
 
 
 

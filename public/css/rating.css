@@ -171,6 +171,7 @@
       position: static;
       margin-right: 0;
       opacity: 1;
+      margin-right: -80%;
     }
     .starability-slot .input-no-rate {
       display: none;

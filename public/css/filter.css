@@ -28,5 +28,17 @@
       opacity: 1;
       cursor: pointer;
   }
-
   
+ @media (max-width: 768px){
+    #filters > a{
+        margin: 0px 0.95rem;
+    }
+  }
+
+  @media (max-width: 425px){
+    #filter > a {
+        margin: 0px 0.65px;
+    }
+  }
+
+   
